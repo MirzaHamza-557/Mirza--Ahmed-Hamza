@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arnold's Gym</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='rough.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='membership.css') }}">
+
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="{{ url_for('static', filename='images/gym.PNG.png') }}" alt=" Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/membership">membership</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Banner -->
+  <section id="home" class="banner">
+    <img src="{{ url_for('static', filename='images/gym1pic.jpeg') }}" alt="Gym Banner Image">
+    <div class="banner-content">
+      <h1>Welcome to Arnold's gym</h1>
+      <p>Your journey to a healthier, stronger you starts here.</p>
+      <a href="#pricing" class="cta-button">Join Now</a>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>Arnold's is a state-of-the-art gym offering a variety of fitness classes, top-tier equipment, and personalized training programs. Whether you're a beginner or a seasoned athlete, we have everything you need to reach your fitness goals.</p>
+    <img src="{{ url_for('static', filename='images/fitness.jpg') }}" alt="About Us Image">
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="services-container">
+      <div class="service">
+        <img src="{{ url_for('static', filename='images/Leonardo_Phoenix_A_fit_muscular_man_in_his_mid30s_with_short_d_2.jpg') }}" alt="Personal Training">
+        <h3>Personal Training</h3>
+        <p>One-on-one sessions with certified trainers to help you achieve your personal fitness goals.</p>
+      </div>
+      <div class="service">
+        <img src="{{ url_for('static', filename='images/imagesg.jpeg') }}" alt="Group Classes">
+        <h3>Group Classes</h3>
+        <p>Join our motivating group classes, including yoga, spinning, and strength training.</p>
+      </div>
+      <div class="service">
+        <img src="{{ url_for('static', filename='images/downloadr.jpeg') }}" alt="Nutrition Counseling">
+        <h3>Nutrition Counseling</h3>
+        <p>Get personalized nutrition advice to complement your fitness regimen and optimize results.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="section">
+    <h2>Pricing</h2>
+    <div class="pricing-container">
+      <div class="pricing-plan">
+        <h3>Basic Plan</h3>
+        <p>$19.99/month</p>
+        <ul>
+          <li>Access to gym equipment</li>
+          <li>1 Free Group Class</li>
+          <li>Access to showers</li>
+        </ul>
+        <a href="#contact" class="cta-button">Sign Up</a>
+      </div>
+      <div class="pricing-plan">
+        <h3>Premium Plan</h3>
+        <p>$39.99/month</p>
+        <ul>
+          <li>Everything in Basic</li>
+          <li>Unlimited Group Classes</li>
+          <li>1 Free Personal Training Session</li>
+        </ul>
+        <a href="#contact" class="cta-button">Sign Up</a>
+      </div>
+      <div class="pricing-plan">
+        <h3>Ultimate Plan</h3>
+        <p>$59.99/month</p>
+        <ul>
+          <li>Everything in Premium</li>
+          <li>Unlimited Personal Training</li>
+          <li>Free Nutrition Counseling</li>
+        </ul>
+        <a href="#contact" class="cta-button">Sign Up</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="section">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonials-container">
+      <div class="testimonial">
+        <p>"Fitness Hub has changed my life! The trainers are incredibly supportive and the community is motivating."</p>
+        <h4>- Sarah W.</h4>
+      </div>
+      <div class="testimonial">
+        <p>"I've never been more confident in my fitness journey. The classes are fun, and I always feel pushed to do my best!"</p>
+        <h4>- James T.</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Got questions? Reach out to us for more information or to book a free consultation!</p>
+    <p>Email: <a href="mailto:info@fitnesshub.com">info@Arnold.com</a></p>
+    <p>Phone: (021) 123-4567</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="social-media">
+      <a href="https://facebook.com" target="_blank">
+        <img src="{{ url_for('static', filename='images/fcpngwing.com (1).png') }}" alt="Facebook">
+      </a>
+      <a href="https://twitter.com" target="_blank">
+        <img src="{{ url_for('static', filename='images/twpngwing.com (2).png') }}" alt="Twitter">
+      </a>
+      <a href="https://instagram.com" target="_blank">
+        <img src="{{ url_for('static', filename='images/inpngwing.com.png') }}" alt="Instagram">
+      </a>
+    </div>
+    <p>&copy; 2024 Arnold's Gym. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

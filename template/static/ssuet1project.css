@@ -1,0 +1,120 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    transition: all linear 0.4s;
+}
+
+
+
+
+.navbar
+{
+    height: 150px;
+    width: 100%;
+    border: solid black;
+    background-color: #0e1a2c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px , 4%;
+    font-size: 35px;
+}
+
+.logo img
+{
+    height: 130px;
+    
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+}
+
+
+
+
+
+
+.navbar ul li 
+{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+
+}
+
+.navbar ul li a
+{
+
+text-decoration: none;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 16px;
+letter-spacing: 1px;
+color: whitesmoke;
+text-transform: uppercase ;
+padding: 2px;
+font-size: 25px;
+
+}
+
+.logo a
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.banner
+{
+    
+    background-image: url(gym1pic.jpeg);
+    background-position: center;
+    background-size: cover;  
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner h1
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    color: #ef4b3f;
+    text-shadow: 0px 0px 15px whitesmoke, 0px 0px 15px #4cb3ed;
+    margin-bottom: 10px;
+}
+
+.button 
+{
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    color: whitesmoke;
+    background-color: #ef4b3f;
+    box-shadow: 0px 0px 5px #4cb3ed , 0px 0px 15px #4cb3ed  ;
+    padding: 8px 35px;
+    letter-spacing: 2px;
+    border: 3px #4cb3ed;
+    border-radius: 90px;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }

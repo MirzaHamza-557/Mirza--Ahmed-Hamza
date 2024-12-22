@@ -1,0 +1,145 @@
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #2C3E50;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    
+  }
+  
+  header .logo img {
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: #34495E;
+  }
+  
+  /* Banner Section */
+  .banner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .banner-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .banner-content p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #E74C3C;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #C0392B;
+  }
+  
+  /* Section Styles */
+  .section {
+    padding: 60px 20px;
+    background-color: white;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .service {
+    background-color: #ECF0F1;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .service img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .pricing-plan
+   {
+    background-color: #ECF0F1;
+    padding: 30px;
+    border-radius: 8px;
+    width
+   }
+
+  .footer img {
+    height: 35 ;
+  }
